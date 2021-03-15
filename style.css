@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "GothamPro";
+    src: url("./fonts/GothamPro/GothamPro.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    font-family: Arial;
+    color: #685d57;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 500px;
+    padding-top: 100px;
+}
+.diagram_circle {
+    position: relative;
+}
+.diagram_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 53px;
+    left: 79px;
+}
+.pennon {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    -webkit-mask: url(svg/loyalty.svg) no-repeat center;
+    mask: url(svg/loyalty.svg) no-repeat center;
+}
+.percent {
+    font-family: GothamPro;
+    font-size: 50px;
+    display: flex;
+    height: 40px;
+}
+.afterpoint {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.line {
+margin-top: 47%;
+}
+.line img {
+    height: 215px;
+}
+.amount {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.human {
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    -webkit-mask: url(svg/human_full.svg) no-repeat center;
+    mask: url(svg/human_full.svg) no-repeat center;
+    margin-left: 5px;
+}
+.expansion_point  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.color {
+    width: 110px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+}
+.title {
+    width: 45%;
+}
